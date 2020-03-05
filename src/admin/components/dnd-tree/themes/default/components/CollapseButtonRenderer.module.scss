@@ -1,0 +1,57 @@
+$line-border-style: 1px dotted #c6ced5;
+/**
+ * Line for under a node with children
+ */
+.lineChildren {
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+.lineChildren::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  left: 50%;
+  bottom: 0;
+  height: 10px;
+  border-left: $line-border-style;
+}
+
+
+.collapseButton,
+.expandButton {
+  appearance: none;
+  border: none;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px #000;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.collapseButton:focus,
+.expandButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #000, 0 0 1px 3px #83bef9;
+}
+.collapseButton:hover:not(:active),
+.expandButton:hover:not(:active) {
+  background-size: 24px;
+  height: 20px;
+  width: 20px;
+}
+
+.collapseButton {
+  background: #fff
+  url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGNpcmNsZSBjeD0iOSIgY3k9IjkiIHI9IjgiIGZpbGw9IiNGRkYiLz48ZyBzdHJva2U9IiM5ODk4OTgiIHN0cm9rZS13aWR0aD0iMS45IiA+PHBhdGggZD0iTTQuNSA5aDkiLz48L2c+Cjwvc3ZnPg==')
+  no-repeat center;
+}
+
+.expandButton {
+  background: #fff
+  url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGNpcmNsZSBjeD0iOSIgY3k9IjkiIHI9IjgiIGZpbGw9IiNGRkYiLz48ZyBzdHJva2U9IiM5ODk4OTgiIHN0cm9rZS13aWR0aD0iMS45IiA+PHBhdGggZD0iTTQuNSA5aDkiLz48cGF0aCBkPSJNOSA0LjV2OSIvPjwvZz4KPC9zdmc+')
+  no-repeat center;
+}

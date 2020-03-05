@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6f61057-0d00-4da4-abec-acb39ad7d7cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/NodeContentRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/TreeNodeRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components/CollapseButtonRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components/CollapseButtonRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components/DragSourceRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components/DragSourceRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components/NodeContentRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/customizeNodeContentRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/customizeTreeNodeRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/CollapseButtonRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/CollapseButtonRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/DragSourceRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/DragSourceRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/NodeContentRenderer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/components/NodeContentRenderer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/modules/page-tree/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="ProjectId" id="1YheSptOQOjwrZI7nVThjp0qD73" />
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/admin/modules/page-tree/components" />
+      <recent name="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default/components" />
+      <recent name="$PROJECT_DIR$/src/admin/components/dnd-tree/themes/default" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6f61057-0d00-4da4-abec-acb39ad7d7cc" name="Default Changelist" comment="" />
+      <created>1583399255064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583399255064</updated>
+      <workItem from="1583399256644" duration="7909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

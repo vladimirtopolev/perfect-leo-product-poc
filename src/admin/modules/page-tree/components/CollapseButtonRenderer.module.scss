@@ -1,0 +1,66 @@
+$line-border-style: 1px dotted #c6ced5;
+
+/**
+ * Line for under a node with children
+ */
+.lineChildren {
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+.lineChildren::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  left: 50%;
+  bottom: 0;
+  height: 10px;
+  border-left: $line-border-style;
+}
+
+
+.collapseButton,
+.expandButton {
+  border: none;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  top: 50%;
+  cursor: pointer;
+  background: none;
+
+  color: #9ba8b4;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Pro";
+  margin-top: -8px;
+  margin-left: -8px;
+  font-size: 16px;
+}
+
+.collapseButton:focus,
+.expandButton:focus {
+  outline: none;
+}
+
+.collapseButton:hover:not(:active),
+.expandButton:hover:not(:active) {
+  background-size: 10px;
+
+}
+
+.collapseButton:after {
+  top: 0px;
+  left: 5px;
+  position: absolute;
+  content: '\f0d7';
+  transform: rotate(310deg);
+}
+
+.expandButton:after {
+  top: 0;
+  left: 7px;
+  position: absolute;
+  content: '\f0da'
+}
