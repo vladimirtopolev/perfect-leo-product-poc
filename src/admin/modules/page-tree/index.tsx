@@ -42,6 +42,7 @@ export default () => {
                 <DndTree<PageItem>
                     treeData={treeData}
                     onChange={changeTreeData}
+                    rowHeight={40}
                     theme={customizeDefaultTheme({
                         specificCollapseButtonRenderer: CollapseButtonRenderer,
                         specificDragSourceRenderer: DragSourceRenderer,

@@ -1,6 +1,6 @@
 import React from 'react';
 import cn from 'classnames';
-import styles from './drag-source-renderer.module.scss';
+import styles from './DragSourceRenderer.module.scss';
 import {DragSourceRendererProps} from '../../../components/dnd-tree/themes/default/customizeNodeContentRenderer';
 
 export default ({ node, treeIndex, path, toggleChildrenVisibility }:DragSourceRendererProps) => {
